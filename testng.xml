@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing LifeAssist Apps">
+    <test name="PreLoginRegression">
+    <parameter name="AndroidDeviceName" value="MukeshEmulator2"/>
+         <classes>
+         <class name="org.mobileautomation.PreloginTest"/>
+        <class name="org.mobileautomation.ContactpageTest"/>
+        <class name="org.mobileautomation.PaypremiumTest"/>
+        <class name="org.mobileautomation.PaypremiumL1screenTest"/>
+         <class name="org.mobileautomation.LoginTest"/>
+             
+         </classes>
+     </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Testing Google Apps]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="ContactUsRegression(failed)">
+    <parameter name="AndroidDeviceName" value="MukeshEmulator2"/>
+    <classes>
+      <class name="org.mobileautomation.ContactpageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ConfigureAppium"/>
+          <include name="ContactusTest"/>
+        </methods>
+      </class> <!-- org.mobileautomation.ContactpageTest -->
+    </classes>
+  </test> <!-- ContactUsRegression(failed) -->
+  <test thread-count="5" parallel="tests" name="PreLoginRegression(failed)">
+    <parameter name="AndroidDeviceName" value="MukeshEmulator2"/>
+    <classes>
+      <class name="org.mobileautomation.PreloginTest">
+        <methods>
+          <include name="PreloginpageTest"/>
+          <include name="tearDown"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- org.mobileautomation.PreloginTest -->
+    </classes>
+  </test> <!-- PreLoginRegression(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->

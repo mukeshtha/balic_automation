@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-07T16:50:40 IST" name="Default suite" finished-at="2023-12-07T16:53:11 IST" duration-ms="150850">
+    <groups>
+    </groups>
+    <test started-at="2023-12-07T16:50:40 IST" name="Default test" finished-at="2023-12-07T16:53:11 IST" duration-ms="150850">
+      <class name="org.mobileautomation.NRIhomepageTest">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.mobileautomation.NRIhomepageTest@66f57048]" started-at="2023-12-07T16:50:40 IST" name="ConfigureAppium" finished-at="2023-12-07T16:51:12 IST" duration-ms="32113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="NRIpageTest()[pri:0, instance:org.mobileautomation.NRIhomepageTest@66f57048]" started-at="2023-12-07T16:51:12 IST" name="NRIpageTest" finished-at="2023-12-07T16:53:10 IST" duration-ms="118198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NRIpageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.mobileautomation.NRIhomepageTest@66f57048]" started-at="2023-12-07T16:53:10 IST" name="tearDown" finished-at="2023-12-07T16:53:11 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.mobileautomation.NRIhomepageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
